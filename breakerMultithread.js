@@ -158,7 +158,6 @@ if (isMainThread)
 
     console.time("Search Time");
 
-    console.log(chars.length);
     for (let i = 0; i < chars.length; i++)
     {
         setEnvironmentData("data", {data, "thread":i});
